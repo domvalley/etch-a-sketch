@@ -1,23 +1,30 @@
+.headBox{
+    display: flex;
+    justify-content: center;
+}
+
 .header{
     color: red;
     border-color: black;
     border-style: dashed;
 }
 
+/* Style for the grid container using Flexbox */
 .grid {
-    display: grid;
-    grid-template-columns: repeat(16, 30px); /* 16 columns */
-    grid-template-rows: repeat(16, 30px);    /* 16 rows */
-    gap: 2px; /* Space between cells */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;       /* Allow the grid items to wrap to the next line */
+    width: 540px;        
+    margin: 0 auto;  
   }
-
+  
   .grid div {
     width: 30px;
     height: 30px;
     border: 1px solid #ccc;
-    background-color: lightgray;
+    background-color: white;
   }
-
+  
   .grid div:hover {
     background-color: lightblue;
   }
