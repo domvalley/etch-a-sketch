@@ -1,0 +1,23 @@
+.header{
+    color: red;
+    border-color: black;
+    border-style: dashed;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(16, 30px); /* 16 columns */
+    grid-template-rows: repeat(16, 30px);    /* 16 rows */
+    gap: 2px; /* Space between cells */
+  }
+
+  .grid div {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    background-color: lightgray;
+  }
+
+  .grid div:hover {
+    background-color: lightblue;
+  }
