@@ -31,6 +31,6 @@
     background-color: white;
   }
   
-  .grid div:hover {
+  .grid div.black {
     background-color: black;
   }
